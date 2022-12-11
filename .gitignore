@@ -13,6 +13,7 @@ system/cache/
 system/logs/
 
 system/storage/
+system/qwerty_2/
 
 # vQmod log files
 vqmod/logs/*
