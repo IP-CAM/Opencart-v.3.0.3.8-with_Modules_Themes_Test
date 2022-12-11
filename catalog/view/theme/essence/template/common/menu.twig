@@ -1,0 +1,10 @@
+{% if categories %}
+   <ul class="list-inline menu">
+    <button type="button" class="hidden-lg hidden-md hidden-sm" id="mob-menu-close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+        {% for category in categories %}
+        <li><a href="{{ category.href }}">{{ category.name }}</a></li>
+        {% endfor %}
+      </ul>
+ {% endif %} 
